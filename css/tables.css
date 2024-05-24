@@ -1,0 +1,37 @@
+table{
+    background-color:#ACACAC;
+    border-collapse: collapse;
+    margin-left:80px;
+}
+.id{
+    background-color:#777474;
+}
+th{
+    background-color:#282525;
+    color:white;
+    border:1;
+    border-color:black;
+}
+tr:nth-child(odd) {
+    background-color: #989898;
+}
+td{
+    color:white;
+}
+tr:first-child th,
+tr:first-child td {
+    border: 1px solid black; /* Устанавливаем границу сверху только для первой строки */
+}
+h2{
+    text-align:center;
+    font-size:40px;
+}
+.pagination{
+    color:black;
+    margin-left:80px;
+}
+
+.pagination a{
+    color:black;
+    font-size:20px;
+}

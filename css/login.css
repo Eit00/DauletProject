@@ -1,0 +1,118 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #2A2A34;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size:15px;
+    width:100%;
+    height:1080px;
+    overflow: hidden;
+}
+img{
+    margin-left:140px;
+    margin-top:70px;
+}
+.login_form{
+    position:absolute;
+    background-color:#1F5C93;
+    width:45%;
+    height:511px;
+    margin-left:25%;
+    margin-top:2%;
+    padding: 18px 40px;
+    text-align:center;
+    box-sizing: border-box;
+}
+label{
+    text-align:left;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    height:150px;
+    width:100%;
+}
+li{
+    display: inline-block;
+    line-height: 150px;
+}
+h1{
+    font-size:64px;
+    font-family: 'Black Han Sans', sans-serif;
+    margin-left:75px;
+}
+input{
+    width:560px;
+    height:60px;
+    border-radius:5px;
+    border-bottom-color:#464343;
+    box-sizing:border-box;
+    padding:5px;
+    border-width: 2px;
+}
+hr{
+    background-color:black;
+    width:560px;
+}
+span{
+    color:black;
+}
+button {
+    background: linear-gradient(to right, #8A2AAB, #000);
+    color: white;
+    padding: 10px 20px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width:560px;
+    height:63px;
+    font-weight: pass
+}
+button:hover {
+    background: linear-gradient(to right, #6d1e8a, #000);
+}
+.circle1 {
+    width: 629px;
+    height: 599px;
+    border-radius: 50%;
+    background-color: #1FBDD0;
+    position: absolute;
+    left: -10%;
+    top: 75%;
+}
+.circle2 {
+    width: 629px;
+    height: 599px;
+    border-radius: 50%;
+    background-color: #1FBDD0;
+    position: absolute;
+    left: 1410px;
+    top: -260px;
+}
+.circle3 {
+    width: 629px;
+    height: 599px;
+    border-radius: 50%;
+    background-color: #1FBDD0;
+    position: absolute;
+    left: 1605px;
+    top: 780px;
+}
+.circle4 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #2A2A34;
+    position: absolute;
+    left: 1770px;
+    top: 930px;
+}
+#error-message {
+    position: absolute;
+    color: red;
+}
